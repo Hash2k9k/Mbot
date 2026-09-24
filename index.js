@@ -17,7 +17,7 @@ const client = new Client({
 });
 
 // CONFIGURATION
-const TOKEN = 'MTU1MjY1MzY3MjMxMDI1MTU0MA.GrmakP.7bJYai8OVGSjIyjbi8doNUyDT2swFQulS5f_ag';
+const TOKEN = process.env.TOKEN;
 const ROLE_ACCES_ID = '1552654875488161884'; // ID du rôle d'accès général (Membre vérifié)
 
 // Mapping des rôles par option (Remplace par les VRAIS IDs numériques de tes rôles)
